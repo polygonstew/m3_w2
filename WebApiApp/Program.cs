@@ -7,6 +7,36 @@ using System.Threading.Tasks;
 
 namespace WebApiApp
 {
+    // 1. THE ENUM
+    public enum AlertSeverity
+    {
+        Low,
+        Medium,
+        High,
+        Critical
+    }
+
+    // 2. THE DATA MODEL
+    public class WeatherAlert
+    {
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
+
+        [JsonPropertyName("location")]
+        public string Location { get; set; } = string.Empty;
+
+        [JsonPropertyName("message")]
+        public string Message { get; set; } = string.Empty;
+
+        [JsonPropertyName("severity")]
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public AlertSeverity Severity { get; set; }
+
+        [JsonPropertyName("timestamp")]
+        public DateTime Timestamp { get; set; }
+    }
+
+    // 3. THE MAIN PROGRAM
     class Program
     {
         private static readonly HttpClient client = new HttpClient();
@@ -16,7 +46,7 @@ namespace WebApiApp
             TerminalPrinter.PrintHeader();
             Console.WriteLine("Fetching real-time logs...");
 
-            string url = "https://raw.githubusercontent.com/polygonstew/m3_w2/main/alerts.json";
+            string url = "https://raw.githubusercontent.com/ajstewart/mock-api/main/alerts.json";
 
             try
             {
