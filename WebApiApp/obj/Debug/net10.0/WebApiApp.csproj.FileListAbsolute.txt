@@ -1,0 +1,15 @@
+C:\2026\m3_w2\WebApiApp\bin\Debug\net10.0\WebApiApp.exe
+C:\2026\m3_w2\WebApiApp\bin\Debug\net10.0\WebApiApp.deps.json
+C:\2026\m3_w2\WebApiApp\bin\Debug\net10.0\WebApiApp.runtimeconfig.json
+C:\2026\m3_w2\WebApiApp\bin\Debug\net10.0\WebApiApp.dll
+C:\2026\m3_w2\WebApiApp\bin\Debug\net10.0\WebApiApp.pdb
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.AssemblyInfoInputs.cache
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.AssemblyInfo.cs
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.csproj.CoreCompileInputs.cache
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.sourcelink.json
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.dll
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\refint\WebApiApp.dll
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.pdb
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\WebApiApp.genruntimeconfig.cache
+C:\2026\m3_w2\WebApiApp\obj\Debug\net10.0\ref\WebApiApp.dll

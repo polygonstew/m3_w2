@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "location": "Sector-4",
+    "message": "Heavy atmospheric interference detected.",
+    "severity": "Medium",
+    "timestamp": "2026-06-25T21:00:00Z"
+  },
+  {
+    "id": 102,
+    "location": "Ridge-Line",
+    "message": "Flash flood flashpoint warning.",
+    "severity": "Critical",
+    "timestamp": "2026-06-25T21:14:32Z"
+  }
+]
