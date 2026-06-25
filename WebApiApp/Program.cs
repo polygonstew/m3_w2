@@ -46,7 +46,7 @@ namespace WebApiApp
             TerminalPrinter.PrintHeader();
             Console.WriteLine("Fetching real-time logs...");
 
-            string url = "https://raw.githubusercontent.com/ajstewart/mock-api/main/alerts.json";
+            string url = "https://raw.githubusercontent.com/polygonstew/m3_w2/main/alerts.json";
 
             try
             {
